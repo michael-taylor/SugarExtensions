@@ -11,7 +11,7 @@ This allows, for instance, a method called `void PrintUsage()` to be exported as
 
 ### Example ###
 
-```
-[Aspect: Naming.JavaName("printUsage")]
+``` delphi
+[Aspect: Naming.JavaName('printUsage')]
 method PrintUsage;
 ```
