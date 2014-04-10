@@ -5,16 +5,27 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Naming", "Naming\Naming.oxygene", "{FDFF2D08-6C8D-4B8F-9BED-9F08F30A42B7}"
 EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "NamingTest.Java", "NamingTest.Java\NamingTest.Java.oxygene", "{015E820F-CCC8-48C6-8B13-37EBAD09AF5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4AD5E720-315B-46F8-B06E-AF695CEA132A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Default = Debug|Default
-		Release|Default = Release|Default
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|Mixed Platforms = Release|Mixed Platforms
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FDFF2D08-6C8D-4B8F-9BED-9F08F30A42B7}.Debug|Default.ActiveCfg = Debug
-		{FDFF2D08-6C8D-4B8F-9BED-9F08F30A42B7}.Debug|Default.Build.0 = Debug
-		{FDFF2D08-6C8D-4B8F-9BED-9F08F30A42B7}.Release|Default.ActiveCfg = Release
-		{FDFF2D08-6C8D-4B8F-9BED-9F08F30A42B7}.Release|Default.Build.0 = Release
+		{FDFF2D08-6C8D-4B8F-9BED-9F08F30A42B7}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{FDFF2D08-6C8D-4B8F-9BED-9F08F30A42B7}.Debug|Mixed Platforms.Build.0 = Debug
+		{FDFF2D08-6C8D-4B8F-9BED-9F08F30A42B7}.Release|Mixed Platforms.ActiveCfg = Release
+		{FDFF2D08-6C8D-4B8F-9BED-9F08F30A42B7}.Release|Mixed Platforms.Build.0 = Release
+		{015E820F-CCC8-48C6-8B13-37EBAD09AF5A}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{015E820F-CCC8-48C6-8B13-37EBAD09AF5A}.Debug|Mixed Platforms.Build.0 = Debug
+		{015E820F-CCC8-48C6-8B13-37EBAD09AF5A}.Release|Mixed Platforms.ActiveCfg = Release
+		{015E820F-CCC8-48C6-8B13-37EBAD09AF5A}.Release|Mixed Platforms.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
