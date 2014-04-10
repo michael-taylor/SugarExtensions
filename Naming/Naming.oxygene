@@ -4,7 +4,7 @@
     <ProductVersion>3.5</ProductVersion>
     <RootNamespace>Naming</RootNamespace>
     <ProjectGuid>{fdff2d08-6c8d-4b8f-9bed-9f08f30a42b7}</ProjectGuid>
-    <OutputType>library</OutputType>
+    <OutputType>Library</OutputType>
     <AssemblyName>Naming</AssemblyName>
     <AllowGlobals>False</AllowGlobals>
     <AllowLegacyWith>False</AllowLegacyWith>
@@ -12,8 +12,13 @@
     <AllowLegacyCreate>False</AllowLegacyCreate>
     <AllowUnsafeCode>False</AllowUnsafeCode>
     <Configuration Condition="'$(Configuration)' == ''">Release</Configuration>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <Name>Naming</Name>
+    <DefaultUses />
+    <StartupClass />
+    <InternalAssemblyName />
+    <ApplicationIcon />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <Optimize>false</Optimize>
@@ -51,11 +56,15 @@
     <WarnOnCaseMismatch>True</WarnOnCaseMismatch>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="mscorlib" />
     <Reference Include="RemObjects.Elements.Cirrus">
       <HintPath>C:\Program Files (x86)\RemObjects Software\Elements\Echoes\Reference Assemblies\RemObjects.Elements.Cirrus.dll</HintPath>
     </Reference>
     <Reference Include="Sugar">
       <HintPath>C:\Program Files (x86)\RemObjects Software\Elements\Sugar\Echoes\Sugar.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
